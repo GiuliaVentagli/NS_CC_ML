@@ -8,6 +8,9 @@ Here is a list of the files:
 - Datagenerator.ipynb: This is the notebook (Julia) which solves the equations and generates the training/testing data set we used in the deep-learning analysis.
 - Deterministic_Neural_Network.ipynb: This is the notebook (Python) for the analysis of the equation of state based on the deterministic neural network.
 - model_det.py: The Python file containing the definition of the deep-learning model and the required functionality needed for the notebook "Deterministic_Neural_Network.ipynb".
+- Rescaledap4.dat and Rescaledsly.dat, tabulated EOS (AP4 and SLy) for the low-density description. They are already rescaled in G=c=M_sun=1 units.
+- matrixrho2.dat and matrixcs2.dat, datasets of random values for mass density and speed of sound used to construct the phenomenological EOS at high-density for training/validation datasets.
+- matrixrhoTest.dat and matrixcsTest.dat, datasets of random values for mass density and speed of sound used to construct the phenomenological EOS at high-density for testing dataset.
 
 # Version
 The version of libraries used are as follows:
